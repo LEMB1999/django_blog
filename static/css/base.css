@@ -1,0 +1,80 @@
+/*  static/css/base.css */
+
+body{
+    font-family: 'Source Sans Pro','sans-serif';
+    font-size:1.4rem;
+}
+
+header{ 
+    border-bottom: 1px solid #999;
+    margin-bottom:2rem;
+    display: flex;
+    width:100%;
+    background-color:#20639B;
+}
+
+
+
+
+header h1 a{
+    color:red;
+    text-decoration:none;
+}
+
+
+.nav-left{
+   margin-right:auto;
+}
+
+.nav-right{
+    display:flex;
+    padding-top:2 rem;
+}
+
+.post-entry{
+   margin-bottom:2rem;
+}
+
+.post-entry h2{
+    margin: 0.5rem;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visited{
+    color:blue;
+    text-decoration: none;
+}
+
+.post-entry p{
+    margin:0px;
+    font-weight: 400;
+}
+
+.post-entry h2 a:hover{
+    color:red;
+}
+
+/* my css */
+
+.container-header{
+    width:80%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 5px;
+   
+}
+
+
+.container-nav ul{
+    display:flex;
+    list-style:none;
+}
+
+.container-nav ul a{
+    padding:10px;
+    text-decoration:none;
+    color:#3CAEA3;
+}
